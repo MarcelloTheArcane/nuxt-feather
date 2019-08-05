@@ -1,0 +1,23 @@
+{
+  "name": "nuxt-feather",
+  "version": "0.0.1",
+  "description": "Nuxt plugin for feathericons.com",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarcelloTheArcane/nuxt-feather.git"
+  },
+  "keywords": [
+    "nuxt",
+    "feather",
+    "icons",
+    "svg"
+  ],
+  "author": "Max Reynolds",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarcelloTheArcane/nuxt-feather/issues"
+  },
+  "homepage": "https://github.com/MarcelloTheArcane/nuxt-feather#readme"
+}
