@@ -1,6 +1,6 @@
 import Vue from 'vue/dist/vue'
 
-import FeatherActivity from '../icons/feather-activity.vue'
+import FeatherActivity from '../icons/FeatherActivity.vue'
 
 describe('FeatherActivity component', () => {
   const vm = new Vue(FeatherActivity).$mount()
