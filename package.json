@@ -3,7 +3,9 @@
   "version": "0.0.2",
   "description": "Nuxt plugin for feathericons.com",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "jest --coverage"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MarcelloTheArcane/nuxt-feather.git"
@@ -19,5 +21,25 @@
   "bugs": {
     "url": "https://github.com/MarcelloTheArcane/nuxt-feather/issues"
   },
-  "homepage": "https://github.com/MarcelloTheArcane/nuxt-feather#readme"
+  "homepage": "https://github.com/MarcelloTheArcane/nuxt-feather#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-jest": "^24.8.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "jest": "^24.8.0",
+    "vue": "^2.6.10",
+    "vue-jest": "^3.0.4",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "js",
+      "json",
+      "vue"
+    ],
+    "transform": {
+      "^.+\\.js$": "babel-jest",
+      "^.+\\.vue$": "vue-jest"
+    }
+  }
 }
